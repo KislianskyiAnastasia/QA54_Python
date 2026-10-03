@@ -50,7 +50,7 @@ def print_sublist_reverse(lst, start, finish):
     print(result)
 
 print_sublist_reverse([1, 2, 3], [0], 2)
-print_sublist_reverse([22, 33, 44, 55, 66, 77], 1, 3)
+print_sublist_reverse([10, 20, 30, 40, 50, 60], 1, 3)
 #==========================4======================
 def get_students_by_grade(students):
     if students is None or not isinstance(students, dict) or len(students) == 0:
